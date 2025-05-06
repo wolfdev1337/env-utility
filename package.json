@@ -1,0 +1,25 @@
+{
+  "name": "env-utility",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "bin": {
+    "env-utility": "./bin/cli.js"
+  },
+  "scripts": {
+    "prepare": "tsc -p tsconfig.json --declaration --outDir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfdev1337/env-utility.git"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ts-morph": "^25.0.1",
+    "zod": "^3.0.0",
+    "yargs": "^17.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
+  }
+}
