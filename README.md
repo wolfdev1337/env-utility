@@ -2,7 +2,10 @@
 
 A robust utility to validate environment variables against `env.d.ts` type definitions, generate TypeScript types from `.env` files, and ensure your application runs with correct configurations. This tool supports custom regex validation, enums, and environment-specific overrides.
 
----
+<p align="center">
+<a href="https://github.com/wolfdev1337" style="padding-left:5px"><img alt="X platform" src="https://img.shields.io/badge/Github-25292f"></a>
+<a href="https://x.com/WolfDev1337"><img alt="Github platform" src="https://img.shields.io/badge/Twitter-1DA1F2"></a>
+</p>
 
 ## **Features**
 
